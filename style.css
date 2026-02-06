@@ -518,5 +518,61 @@ header{
     margin-top: 25px;
 }
 .case-studies-section{
+    padding: 72px 0;
+    width: 100%;
+
+}
+.case_contant{
+    margin: 0 248.40px;
+    padding: 48px 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+.case-green{
+    color: #18E290;
+    font-size: 14px;
+    font-weight: 500;
+}
+.case_contant h2{
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 44px;
+}
+.case_contant p{
+    color: var(--color-text-secondary);
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+}
+.carosole_cont{
+    padding: 0 273.737px;
+}
+.carosel_item{
+    display: flex;
+    gap: 20px;
+    transform: translate3d(0px,0px,0px);
+}
+.image_caro img{
+    width: 393px;
+    height: 290px;
+    border-radius: 25px;
+}
+.image_caro img:hover{
+    opacity: 0.6;
+    cursor: pointer;
     
 }
+.carosel_content{
+    display: flex; 
+    flex-direction: column;
+    gap: 24px;
+    width: 393px;
+    cursor: pointer;
+    overflow: hidden;
+}
+.carousel-control:hover{
+    opacity: 0.6;
+}
+
