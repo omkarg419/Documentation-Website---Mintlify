@@ -406,3 +406,117 @@ header{
     height: 420px;
     border-radius: 25px;
 }
+.assistant-preview-section{
+    padding: 96px 0;
+    background-color: var(--color-background-secondary);
+    width: 100%;
+    height: 1325px;
+
+}
+.assistant-preview-content{
+    margin-left: 248.400px;
+    margin-right: 248.400px;
+    width: 1024px;
+    height:1106px;
+    display: flex;
+    flex-direction: column;
+    gap:24px;
+}
+.assistant-content{
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+    align-items: flex-start;
+}
+.enterprise-reinvention{
+    color: #18E290;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+}
+.assistant-content h3{
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 44px;
+}
+.assistant-content-child{
+    display: flex;
+    flex-direction: row;
+    gap: 166px;
+    align-items: center;
+}
+.assistant-content-child p{
+    color: var(--color-text-secondary);
+    font-size: 16px;
+    line-height: 20px;
+    max-width: 640px;
+}
+.assistant-content-child button{
+    display: flex;
+    align-items: center;
+    background-color: var(--color-text);
+    color: var(--color-background);
+    box-shadow: none;
+    border: none;
+    height: 33.1px;
+    border-radius: 15px;
+    padding: 7px 24px;
+    padding-inline-end: 24px;
+    padding-inline-start: 24px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.assistant-content-child button:hover{
+    background-color: #CDCFD0;
+}
+.assistant-card{
+    margin-top: 24px;
+    margin-bottom: 24px;
+    padding-bottom: 48px;
+    display: flex;
+    flex-direction: row;
+    gap: 48px;
+}
+
+.ass-card-child{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.ass-card-child img{
+    width: 35px;
+    height: 35px;
+    font-weight: 600;
+}
+.ass-card-child h4{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 26px;
+}
+.ass-card-child p{
+    color: var(--color-text-secondary);
+    font-size: 16px;
+    line-height: 24px;
+}
+.assistant-image{
+    width: 1024px;
+    height: 622px;
+    margin-top: -24px;
+}
+.assistant-image .intel_img{
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+}
+.assistant-image .intel_img:hover{
+    opacity: 0.6;
+    cursor: pointer;
+}
+.intel_logo{
+    width: 100%;
+    margin-top: 25px;
+}
+.case-studies-section{
+    
+}
